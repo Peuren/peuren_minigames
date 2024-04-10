@@ -8,7 +8,7 @@ You are also free to include this in your own releases or use it in your own pro
 - **Hacking**
 	> exports.peuren_minigames:StartHacking(count,  rememberTime,  completeTime)
 - **Looting**
-	> exports.peuren_minigames:StartLooting,  timeToLoot,  size,  callback)
+	> exports.peuren_minigames:StartLooting(items,  timeToLoot,  size,  callback)
 - **Typewriter**
 	> exports.peuren_minigames:StartTypewriter(count, completeTime)
 
