@@ -32,7 +32,3 @@ end)
 
 
 exports("StartTypewriter", StartTypewriter)
-
-RegisterCommand("typewrite", function()
-    StartTypewriter(5, 5000)
-end)
