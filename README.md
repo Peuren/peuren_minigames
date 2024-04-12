@@ -1,6 +1,9 @@
+
+![peuren_minigames (2)](https://github.com/Peuren/peuren_minigames/assets/85559163/9817412d-ac92-4068-aabc-2f4b28466238)
+
 # PEUREN_MINIGAMES
-A resource that provides various minigames for other PeuRen resources.
-You are also free to include this in your own releases or use it in your own projects.
+**A resource that provides various minigames for other PeuRen resources.
+You are also free to include this in your own releases or use it in your own projects.**
 
 ## Available Minigames
 - **Lockpicking**
