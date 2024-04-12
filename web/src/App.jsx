@@ -3,6 +3,7 @@ import Lockpicking from "./pages/lockpicking";
 import Hacking from "./pages/hacking";
 import Looting from "./pages/looting";
 import Typewriter from "./pages/typewriter";
+import PressureBar from "./pages/pressure";
 
 function App() {
   const globalState = useGlobalState();
@@ -22,6 +23,10 @@ function App() {
 
     if (globalState.currentPage == "typewriter") {
       return <Typewriter {...globalState.pageData}/>
+    }
+
+    if (globalState.currentPage == "pressure") {
+      return <PressureBar {...globalState.pageData}/>
     }
 
     return <></>

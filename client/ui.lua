@@ -35,6 +35,5 @@ end
 
 RegisterNUICallback('hide', function(_, cb)
     ToggleNuiFrame(false)
-    debugPrint('Hide the UI')
     cb(true)
 end)
