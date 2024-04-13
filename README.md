@@ -6,21 +6,23 @@
 You are also free to include this in your own releases or use it in your own projects.**
 
 ## Available Minigames
-- **Lockpicking minigame**
+- **Lockpicking**
   
   	` exports.peuren_minigames:StartLockpick(pickCount, eventStep, breakChance) `
-- **Hacking minigame**
+- **Hacking**
   
 	` exports.peuren_minigames:StartHacking(count,  rememberTime,  completeTime) `
-- **Looting minigame**
+- **Looting**
   
 	`exports.peuren_minigames:StartLooting(items,  timeToLoot,  size,  callback) `
-- **Typewriter minigame**
+- **Typewriter**
 
 	`exports.peuren_minigames:StartTypewriter(count, completeTime)`
-- **Pressure bar minigame**
+- **Pressure Bar**
 
 	` exports.peuren_minigames:StartPressureBar(breakLine, speed) `
+
+You can also find examples on what arguments to send inside of client files in the bottom.
 
 ## Check us out!
 You can reach us on our [Discord](https://discord.gg/wtxqbm4Sjq) and you can find our releases on our [Tebex store](https://peuren.tebex.io/)
