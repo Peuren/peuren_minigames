@@ -12,5 +12,5 @@ files { 'locales/*.json', "web/build/**/*" }
 
 dependency 'peuren_lib'
 
-ui_page "http://localhost:5173/"
---ui_page "web/build/index.html"
+--ui_page "http://localhost:5173/"
+ui_page "web/build/index.html"
