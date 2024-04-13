@@ -37,3 +37,7 @@ RegisterNuiCallback("finishedPicking", function(data, cb)
 end)
 
 exports("StartLockpick", StartLockpick)
+
+RegisterCommand("trylockpick", function()
+    print(StartLockpick(3, 5, 5))
+end)

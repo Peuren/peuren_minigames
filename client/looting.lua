@@ -4,6 +4,7 @@ local activeCallback = function() return false end
 ---@param items any
 ---@param timeToLoot number
 ---@param callback function
+---@param size any
 ---@return unknown
 function StartLooting(items, timeToLoot, size, callback)
     if ActiveMinigamePromise then return end
@@ -28,3 +29,12 @@ end)
 
 
 exports("StartLooting", StartLooting)
+
+RegisterCommand("trylooting", function()
+    StartLooting({
+        ["1"] = {item = "lockpick", amount = 5}, ["4"] = {item = "lockpick", amount = 5}
+    }, 3000, {x = 3, y = 3}, function(index) 
+        print(index)
+        return true 
+    end)
+end)

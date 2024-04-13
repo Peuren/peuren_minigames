@@ -4,6 +4,8 @@ import { fetchNui } from "@/src/utils/fetchNui";
 import playAudio from "@/src/utils/playAudio";
 
 function TransformItemList(itemList, size) {
+  console.log("ITEMLIST", itemList)
+  console.log(typeof itemList);
   const arr = Array.from(Array(size.x * size.y)).map((x, index) => {
     if (itemList[index + 1]) {
       return {
@@ -22,6 +24,7 @@ function TransformItemList(itemList, size) {
     }
   });
 
+  console.log(arr)
   return arr;
 }
 
@@ -66,8 +69,8 @@ function Looting({ itemList, timeToLoot, size }) {
         style={{
           "width": `${9 * size.x}rem`,
           "height": `${9 * size.y}rem`,
-          "grid-template-columns": `repeat(${size.y}, minmax(0, ${size.y}fr))`,
-          "grid-template-rows": `repeat(${size.x}, minmax(0, ${size.x}fr))`,
+          "gridTemplateColumns": `repeat(${size.y}, minmax(0, ${size.y}fr))`,
+          "gridTemplateRows": `repeat(${size.x}, minmax(0, ${size.x}fr))`,
         }}
       >
         {items.map((item, index) => (

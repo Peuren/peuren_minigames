@@ -58,3 +58,7 @@ RegisterNUICallback('breakPressure', function(_, cb)
 end)
 
 exports("StartPressureBar", StartPressureBar)
+
+RegisterCommand("trypressure", function()
+    print(StartPressureBar(40, 20))
+end)

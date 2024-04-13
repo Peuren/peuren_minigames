@@ -32,3 +32,7 @@ end)
 
 
 exports("StartTypewriter", StartTypewriter)
+
+RegisterCommand("trytype", function()
+    print(StartTypewriter(5, 2000))
+end)

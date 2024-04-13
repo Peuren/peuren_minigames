@@ -34,3 +34,7 @@ end)
 
 
 exports("StartHacking", StartHacking)
+
+RegisterCommand("tryhacking", function()
+    print(StartHacking(5, 5000, 5000))
+end)
