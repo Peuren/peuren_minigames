@@ -24,5 +24,8 @@ You are also free to include this in your own releases or use it in your own pro
 
 You can also find examples on what arguments to send inside of client files in the bottom.
 
+### Dependencies
+[peuren_lib](https://github.com/Peuren/peuren_lib/releases)
+
 ## Check us out!
 You can reach us on our [Discord](https://discord.gg/wtxqbm4Sjq) and you can find our releases on our [Tebex store](https://peuren.tebex.io/)
