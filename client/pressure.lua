@@ -8,7 +8,7 @@ local currentSpeed = 1
 ---@return unknown
 function StartPressureBar(breakLine, speed)
     if ActiveMinigamePromise then return end
-    ToggleNuiFrame(true)
+    ToggleNuiFrame(true, true)
     SendUIMessage("openPage", {
         page = "pressure",
         options = {
@@ -31,7 +31,7 @@ function StartPressureBar(breakLine, speed)
         if ActiveMinigamePromise then 
             ActiveMinigamePromise:resolve(true)
             ActiveMinigamePromise = nil
-            ToggleNuiFrame(false)
+            ToggleNuiFrame(false, true)
         end
     end)
 
@@ -54,7 +54,7 @@ RegisterNUICallback('breakPressure', function(_, cb)
         ActiveMinigamePromise = nil
     end
     cb(true)
-    ToggleNuiFrame(false)
+    ToggleNuiFrame(false, true)
 end)
 
 exports("StartPressureBar", StartPressureBar)
