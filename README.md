@@ -28,4 +28,4 @@ You can also find examples on what arguments to send inside of client files in t
 [peuren_lib](https://github.com/Peuren/peuren_lib/releases)
 
 ## Check us out!
-You can reach us on our [Discord](https://discord.gg/wtxqbm4Sjq) and you can find our releases on our [Tebex store](https://peuren.tebex.io/)
+You can reach us on our [Discord](https://discord.gg/wtxqbm4Sjq) and you can find our releases on our [Tebex store](https://peuren.dev/)
