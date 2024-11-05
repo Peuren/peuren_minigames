@@ -5,6 +5,9 @@
 **A resource that provides various minigames from our paid releases.
 You are also free to use this for your own resources, but be sure to include credit or use this script as a dependency if releasing paid work.**
 
+## Check us out!
+You can reach us on our [Discord](https://discord.gg/wtxqbm4Sjq) and you can find our releases on our [Tebex store](https://peuren.dev/)
+
 ## Available Minigames
 - **Lockpicking**
   
@@ -26,6 +29,3 @@ You can also find examples on what arguments to send inside of client files in t
 
 ### Dependencies
 [peuren_lib](https://github.com/Peuren/peuren_lib/releases)
-
-## Check us out!
-You can reach us on our [Discord](https://discord.gg/wtxqbm4Sjq) and you can find our releases on our [Tebex store](https://peuren.dev/)
